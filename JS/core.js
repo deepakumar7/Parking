@@ -63,7 +63,7 @@ class UI{
             return false;
         }
         if(!licensePlateRegex.test(licensePlate)){
-            UI.showAlert('License Plate must be like NN-NN-LL, NN-LL-NN, LL-NN-NN','danger');
+            UI.showAlert('License Plate must be like NN-NN-LLLL, NN-LL-NNNN, LL-NN-NNNN','danger');
             return false;
         }
         return true;
